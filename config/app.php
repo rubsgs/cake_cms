@@ -274,6 +274,10 @@ return [
             'driver' => Mysql::class,
             'persistent' => false,
             'timezone' => 'UTC',
+            'host' => 'localhost',
+            'username' => 'rubens',
+            'password' => '20303016',
+            'database' =>'cake_cms',
 
             /**
              * For MariaDB/MySQL the internal default changed from utf8 to utf8mb4, aka full utf-8 support, in CakePHP 3.6
@@ -322,6 +326,10 @@ return [
             'cacheMetadata' => true,
             'quoteIdentifiers' => false,
             'log' => false,
+            'host' => 'localhost',
+            'username' => 'rubens',
+            'password' => '20303016',
+            'database' =>'cake_cms'
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
         ],
     ],
